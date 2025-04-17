@@ -8,7 +8,7 @@ public class App {
         lampada1.ligar();
         lampada2.desliga();
 
-        System.out.println("lampada 1 está" + (lampada1.resultado() ? "ligada" : "desligada"));
-        System.out.println("lampada 2 está" + (lampada2.resultado() ? "ligada" : "desligada"));
+        System.out.println("lampada 1 está " + (lampada1.resultado() ? "ligada" : "desligada"));
+        System.out.println("lampada 2 está " + (lampada2.resultado() ? "ligada" : "desligada"));
     }
 }
